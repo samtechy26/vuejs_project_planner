@@ -9,15 +9,15 @@
     },
     {
       "ïd": 2,
-      "title": "Make marketing email",
+      "title": "Create marketing email",
       "details": "Lorem ipsum",
-      "complete": false,
+      "complete": true,
       "id": "bfdf"
     },
     {
       "id": "3461",
       "title": "Create a website",
-      "details": "Design a new website using vue js",
+      "details": "Design a new website using vue  and react js",
       "complete": false
     }
   ]
