@@ -28,9 +28,9 @@ export default {
     },
     methods: {
         deleteProject() {
-            fetch(this.uri, {method: 'DELETE'})
-            .then(() => this.$emit('delete', this.project.id))
-            .catch(err => console.log(err))
+      fetch(this.uri, { method: 'DELETE' })
+        .then(() => this.$emit('delete', this.project.id))
+        .catch(err => console.log(err))
         },
         toggleComplete() {
             fetch(this.uri, {
@@ -41,6 +41,7 @@ export default {
             .then(() => {
                 this.$emit('complete', this.project.id)
             })
+            .catch(err => console.log(err))
         }
     }
     

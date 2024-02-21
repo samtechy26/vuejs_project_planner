@@ -4,21 +4,20 @@
       "ïd": 1,
       "title": "Create new homepage banner",
       "details": "Lorem ipsum",
-      "complete": true,
+      "complete": false,
       "id": "f62a"
-    },
-    {
-      "ïd": 2,
-      "title": "Create marketing email",
-      "details": "Lorem ipsum",
-      "complete": true,
-      "id": "bfdf"
     },
     {
       "id": "3461",
       "title": "Create a website",
       "details": "Design a new website using vue  and react js",
       "complete": false
+    },
+    {
+      "id": "243d",
+      "title": "Meet with Friend",
+      "details": "Meet with Biggard and Jude for drinks",
+      "complete": true
     }
   ]
 }

@@ -33,14 +33,14 @@ export default {
     .then(data => this.projects = data)
     .catch(err =>  console.log(err.message))
   },
-  mathods: {
+  methods: {
     handleDelete(id) {
       this.projects = this.projects.filter((project) => {
         return project.id !== id
       })
     }, 
     handleComplete(id) {
-      let p = this.project.find(project => {
+      let p = this.projects.find(project => {
         return project.id === id
       })
       p.complete = !p.complete
